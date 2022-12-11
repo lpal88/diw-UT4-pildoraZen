@@ -1,0 +1,1 @@
+{"mappings":"AAAA,SAAS,aAAa;IACf,IAAI,UAAU,SAAS,IAAI;IAC3B,QAAQ,SAAS,CAAC,MAAM,CAAC;AAC5B","sources":["src/assets/js/darkMode.js"],"sourcesContent":["function toggleMode() {\n       var element = document.body;\n       element.classList.toggle(\"dark-mode\");\n    }\n"],"names":[],"version":3,"file":"index.0f239b51.js.map","sourceRoot":"/__parcel_source_root/"}

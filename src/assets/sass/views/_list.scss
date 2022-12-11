@@ -1,0 +1,112 @@
+/*** SEARCH BAR ***/
+
+.section__searchBar {
+    display:flex;
+    justify-content: flex-end;
+        
+    height: 45vh ;
+    padding-top: 150px;
+    padding-right: 120px;
+
+}
+
+
+.searchBar__box {
+    display: flex;
+    justify-content: flex-end;
+    
+    width: 650px;
+    height: 80px;
+    border: $border-box;
+    box-shadow: $box-shadow;
+
+    z-index: -1;
+
+
+}
+
+
+.searchBar__link {
+    height: 80px;
+    border: $border-box;
+    margin-left: -70px;
+    border: $border-box;
+
+    background-image: $gradient;
+}
+
+.searchBar__image {
+    width: 75px;
+    height: 75px;   
+}
+
+.searchBar__box::placeholder {
+    font-family: $fontFamily-text;
+    font-size: 2rem;
+
+    padding: 20px;
+  }
+
+  /** LIST **/
+
+  .section__list {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(204px, 1fr));
+    gap: 50px;
+    margin: 0 auto;
+    padding: 50px 10px;
+
+  }
+
+  .author__backgroundImage {
+    width: 204px;
+    height: 204px;
+    border-radius: 50%;
+    border: 5px solid black;
+    margin: 0 auto;
+  }
+
+#colorLaoTzu { background-color: $color-vibra3; }
+#colorHooper { background-color: $color-calma2; }
+#colorConfucio { background-color: $color-vibra6; }
+#colorEpicuro { background-color: $color-vibra1; }
+#colorBuda{ background-color: $color-vibra5;}
+#colorArendt{ background-color: $color-vibra1;}
+#colorSafo{ background-color: $color-calma1;}
+#colorHipatia{ background-color: $color-vibra2;}
+#colorMead{ background-color: $color-vibra3;}
+#colorUeshiba{ background-color: $color-calma4;}
+#colorDavis{ background-color: $color-vibra6;}
+#colorChuangTse { background-color: $color-vibra3;}
+
+.author__image {
+    width: 96%;
+    height: 96%;
+
+    position: relative;
+
+    clip-path: circle(92px at 50% 50%);
+
+  }
+
+.author__name {
+    font-family: $fontFamily-titles;
+    font-size: 2.2rem;
+    text-shadow: $text-shadow;
+
+    width: 100%;
+
+    display: block;    
+    text-align: center;
+
+    padding-top: 10px; 
+}
+
+/** BEFORE & AFTER**/
+
+.before-after {
+  padding: 20px;
+  display:flex;
+  justify-content: center;
+}

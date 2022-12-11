@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/sass/main.scss">
+    <title>Formulario de Contacto - Píldora Zen</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img class="header__logo" src="assets/images/Logotipo-cabecera.png"></a>
+        <nav class="header__menu">
+            <ul class="menu__list"> 
+                <li class="list__link"><a href="list.html">Autorxs</a></li>
+                <li class="list__link"><a href="#">Temáticas</a></li>
+                <li class="list__link--on"><a href="#">Contacto</a></li>
+                <li class="list__link--buttonStyle"><a href="login.html">LOG IN</a></li>
+            </ul>
+        </nav>
+        <nav class="header__menuMobil">
+            <img class="menuMobil__img" src="assets/images/nav_mobil.png">
+            <ul class="menuMobil__list">
+                <li class="listMobil__link"><a href="list.html">Autorxs</a></li>
+                <li class="listMobil__link"><a href="#">Temáticas</a></li>
+                <li class="listMobil__link--on"><a href="#">Contacto</a></li>
+                <li class="listMobil__link--buttonStyle"><a href="login">LOG IN</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="contact">
+        <button class="button__mode" onclick="toggleMode()">Mode</button>
+        <h1 class="contact__title">CUÉNTANOS TU OPINIÓN</h1>
+        <form class="contact__form" action="" method="post" class="contactForm">
+            <label class="form__label" for="email" >CORREO ELECTRÓNICO
+                <input class="label__input" id="formInput__email" type="email" name="email">
+            </label>
+            
+            <label class="form__label" for="subject">ASUNTO 
+                <input class="label__input" id="formInput__subject" type="text" name="subject">
+            </label>
+            
+            <label class="form__label"  for="message">MENSAJE 
+                <input  class="label__input--message" id="formInput__message" type="text" name="message" >
+                <img class="form__image" src="assets/images/cabeza.png" alt="">
+
+            </label>
+            
+
+            <button class="form__button" type="submit">ENVIAR</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <a href="#" class="footer__icon">
+            <img src="assets/images/telegram.png" alt="telegram" class="icon__image">
+        </a>
+        <a href="#" class="footer__icon">
+            <img src="assets/images/facebook.png" alt="fb" class="icon__image">
+        </a>
+        <a href="#" class="footer__icon">
+            <img src="assets/images/instagram.png" alt="instagram" class="icon__image">
+        </a>
+        <a href="#" class="footer__icon">
+            <img src="assets/images/youtube.png" alt="youtube" class="icon__image">
+        </a>
+    </footer>
+<script src="assets/js/darkMode.js"></script>
+</body>
+</html>

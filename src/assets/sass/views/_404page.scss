@@ -1,0 +1,96 @@
+.errorPage {
+    height: 60vh;
+
+    
+}
+
+.sectionError{
+
+    background-color: white;
+    box-shadow: $box-shadow;
+    width: 500px;
+    height: 200px;
+
+    text-align: center;
+
+    padding: 20px;
+
+    margin: 0 auto ;
+
+    animation: swing-fall linear 3s;
+
+    transform: translateY(245px) rotate(-45deg);
+
+
+
+
+
+
+
+   
+
+}
+
+.sectionError__title--404 {
+    font-size: 3rem;
+    font-family: $fontFamily-titles;
+    opacity: 0.5;
+    text-align: center;
+
+    animation: swing-fall-words linear 3s;
+
+    transform: translateY(90px);
+
+}
+
+
+.sectionError__title--error {
+    animation: swing-fall-words linear .5s;
+    font-size: 3rem;
+    text-align: center;
+    font-family: $fontFamily-titles;
+
+    transform: translateY(60px) rotateZ(-10deg);
+
+
+}
+.sectionError__message {
+    font-family: $fontFamily-text;
+    animation: swing-fall-message linear 3s;
+
+    transform: translateY(40px) translateX(-102px)rotateZ(0deg);
+
+}
+
+@keyframes swing-fall {
+    0% { transform: rotateZ(0deg); }
+
+    40% { transform: rotateZ(6deg); }
+
+    70% { transform: rotateZ(-12deg); }
+    100%{
+        transform: translateY(260px) rotate(-45deg);}
+
+}
+@keyframes swing-fall-message {
+    0% { transform: rotateZ(0deg); }
+
+    40% { transform: rotateZ(6deg); }
+
+    70% { transform: rotateZ(-12deg) translateX(-60px);}
+    100%{
+        transform: translateY(50px) translateX(-102px);}
+
+}
+
+@keyframes swing-fall-words {
+    0% { transform: rotateZ(0deg); }
+
+    40% { transform: rotateZ(6deg); }
+
+    70% { transform: rotateZ(-12deg)}
+    100%{
+        transform: translateY(50px)}
+
+}
+

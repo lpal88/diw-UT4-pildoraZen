@@ -1,0 +1,149 @@
+.home {
+    height: 1500px;
+}
+
+/*** QUOTES ***/
+
+.section__quotes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+
+    height: 75vh;
+    padding-top: 300px;
+    padding: 60px;
+}
+
+.quotes__image {
+    position: absolute;
+    padding-top: 100px;
+    padding-left: -280px;
+
+    height: 80vh;
+    z-index: -1;
+
+    transform: rotateY(180deg) ;
+    opacity: 0.2;
+}
+
+.quotes__sentence{
+    width: 70vw;
+    padding-left: 50px;
+    font-size: 2.5vw;
+
+    @media (max-width: 720px) {
+        font-size: 4vw;
+        transition: $transition-letter;
+    }
+}
+
+.quotes__sentence, .quotes__sentence--author{
+    font-family: $fontFamily-text;
+    text-shadow: $text-shadow;
+
+}
+
+.quotes__sentence--author{
+    align-self: flex-end;
+    justify-self: flex-end;
+    color: $color-vibra5;
+    font-size: 3vw;
+}
+
+  /*** MOST POPULAR ***/
+
+     /* author */
+
+.section__mostPopular {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 75vh;
+    padding: 75px;
+
+    @media (max-width: 720px) {
+        display:block;
+        margin: 0 auto;
+        text-align: center;
+    }
+  }
+
+
+.mostPopular__title {
+    font-family: $fontFamily-titles;
+    font-size:6vw;
+
+    padding-bottom: 100px ;
+
+    text-align: center;
+    width: 100%;
+
+    @media (max-width: 720px) {
+        font-size: 15vw;
+        transition: $transition-letter;
+    }
+  }
+
+
+#author {
+    width: 100%;
+}
+
+.mostPopular__author {
+    padding-bottom: 50px;
+    width: 33%;
+
+}
+
+.author__backgroundImage {
+    width: 204px;
+    height: 204px;
+    border-radius: 50%;
+    border: 4px solid black;
+    margin: 0 auto;
+  }
+
+#colorLaoTzu { background-color: $color-vibra3; }
+#colorHooper { background-color: $color-calma2; }
+#colorEpicuro { background-color: $color-vibra1; }
+
+.author__image {
+    width: 95%;
+    height: 95%;
+    position: relative;
+    bottom: -12px;
+    right: -6px;
+  }
+
+.author__name {
+    font-family: $fontFamily-text;
+    font-size: 2rem;
+    text-shadow: $text-shadow;
+
+    width: 100%;
+
+    display: block;    
+    text-align: center;
+}
+
+    /* Topics */
+
+.mostPopular__topic {
+    width: 180px;
+    height: 80px;
+    margin-bottom: 30px;
+    padding: 10px;
+
+    border: 3px solid $color-calma1;
+    background-color: $color-vibra2;
+
+    font-family: $fontFamily-titles;
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+

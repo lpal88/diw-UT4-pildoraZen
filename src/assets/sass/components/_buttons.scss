@@ -1,0 +1,13 @@
+.button__mode {
+    border-radius: 50%;
+    padding: 5px;
+    position: absolute;
+    right: 60px;
+    top: 180px;
+
+    font-family: $fontFamily-titles;
+    font-size: 2rem;
+
+    @media (max-width: 170px) { margin: 120px;}
+
+}

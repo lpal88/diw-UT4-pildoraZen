@@ -1,0 +1,76 @@
+.log { height: 100vh;}
+
+.logForm {
+    width: 30%;
+    height: 70vh;
+    border: 2px solid $color-calma3;
+    border-radius: 10%;
+    display: block;
+    
+    padding: 20px;
+    margin: 100px auto;
+
+    @media (max-width: 821px) { width: 90%; }
+    
+}
+
+.logForm__option {
+    display: flex;
+    justify-content: space-around;
+
+    padding-top: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+
+    
+}
+
+.option__log, .option__sing, .logForm__submit {
+    font-family: $fontFamily-titles;
+    font-size: 2rem;
+    text-shadow: $text-shadow;
+
+    color: black;
+
+    border: $border-button;
+
+    @media (max-width: 720px) {
+        font-size: 6vw;
+        
+    }
+}
+
+.option__log {background-color: $color-lightergrey; color: grey; padding: 10px 25px ;}
+.option__sing {background-color: $color-vibra2;padding: 10px 20px ;}
+
+.input__box {
+    display: block;
+    margin: 30px auto;
+
+    padding: 15px;
+    width: 75%;
+
+    border: none;
+    background-color: $color-lightergrey;
+
+    @media (max-width: 720px) {
+        width: 89%;
+        
+    }
+}
+
+::placeholder {
+    font-family: $fontFamily-text;
+    font-size: 16px;
+
+  }
+
+.logForm__submit {
+    background-color: $color-vibra2;
+
+    display: block;
+    margin: 50px auto;
+    padding: 10px 20px ;
+}
+
+

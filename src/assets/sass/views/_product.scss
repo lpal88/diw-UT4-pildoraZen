@@ -1,0 +1,65 @@
+.authorHeader {
+    padding:200px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 720px) { 
+        transform: scale(0.4);
+        padding:20px;
+     }
+
+}
+
+.authorHeader__singleAuthor {
+    transform: scale(1.8) translateX(80px);
+}
+
+.authorHeader__decorativeImage{
+    transform: rotateY(180deg) scale(0.8) translateY(-220px) ;
+}
+
+.singleAuthor__backgroundImage{
+    width: 204px;
+    height: 204px;
+    border-radius: 50%;
+    border: 5px solid black;
+
+
+
+}
+
+.singleAuthor__image{
+    transform: translateY(5px) ;
+}
+
+
+
+.singleAuthor__name {
+    display: block;    
+    text-align: center;
+
+    font-family: $fontFamily-titles;
+    font-size: 3rem;
+}
+
+.authorMain {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+    margin: 0 auto;
+    
+}
+
+.authorMain__qoute {
+    padding: 10px;
+    box-shadow: $box-shadow;
+    text-align: center;
+
+    font-family: $fontFamily-text;
+
+
+
+}

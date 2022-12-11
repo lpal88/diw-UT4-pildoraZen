@@ -1,0 +1,58 @@
+/** TYPO **/
+$fontFamily-titles : 'Amatic SC';
+$fontFamily-text : 'thabit';
+
+
+/** SHADOW **/
+
+$text-shadow: -1px 2px 2px grey; 
+$box-shadow: -3px 3px 10px lightgrey;
+
+/** COLOR **/
+
+$color-vibra1 : #D9ED92;
+$color-vibra2 : #B5E48C;
+$color-vibra3 : #99D98C;
+$color-vibra4 : #76C893;
+$color-vibra5 : #52B69A;
+$color-vibra6 : #34A0A4;
+$color-calma1 : #168AAD;
+$color-calma2 : #1A759F;
+$color-calma3 : #1E6091;
+$color-calma4 : #184E77;
+$color-lightergrey: rgb(243, 241, 241);
+
+/** BUTTON **/
+
+$color-button: $color-vibra2;
+$border-button: 2px solid black;
+$color-border-button: black;
+
+/** OTHER **/
+
+$gradient : linear-gradient(#99D98C, #1A759F);
+
+$transition-letter: all 0.5s ease;
+
+$border-box: 3px solid black;
+
+$color__primary: white;
+//$color__secondary: #F98A4F;
+$color__text: #000;
+// Colores oscuros
+$color__primary--dark: #000103;
+//$color__secondary--dark: #515052;
+$color__text--dark: #FFFFFA;
+
+// Tema principal
+.theme {
+  --color__primary: #{$color__primary};
+  //--color__secondary: #{$color__secondary};
+  --color__text: #{$color__text};
+}
+  // Tema oscuro
+.dark-mode {
+    --color__primary: #{$color__primary--dark};
+    //--color__secondary: #{$color__secondary--dark};
+    --color__text: #{$color__text--dark}
+}

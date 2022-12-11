@@ -1,0 +1,21 @@
+.footer {
+    background-image: $gradient;
+    height: 20vh;
+    width: 100%;
+
+    bottom: 0%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__icon {
+    padding: 50px;
+    
+    @media screen and (max-width: 720px){
+        padding: 15px;
+    }
+}
+
+

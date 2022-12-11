@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/sass/main.scss">
+    <title>Autorxs - Píldora Zen</title>
+</head>
+<body>
+    <header class="header">
+        <a href="index.html"><img class="header__logo" src="assets/images/Logotipo-cabecera.png"></a>
+        <nav class="header__menu">
+            <ul class="menu__list"> 
+                <li class="list__link--on"><a href="#">Autorxs</a></li>
+                <li class="list__link"><a href="#">Temáticas</a></li>
+                <li class="list__link"><a href="contact.html">Contacto</a></li>
+                <li class="list__link--buttonStyle"><a href="login.html">LOG IN</a></li>
+            </ul>
+        </nav>
+        <nav class="header__menuMobil">
+            <img class="menuMobil__img" src="assets/images/nav_mobil.png">
+            <ul class="menuMobil__list">
+                <li class="listMobil__link--on"><a href="#">Autorxs</a></li>
+                <li class="listMobil__link"><a href="#">Temáticas</a></li>
+                <li class="listMobil__link"><a href="contact.html">Contacto</a></li>
+                <li class="listMobil__link--buttonStyle"><a href="login.html">LOG IN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <button class="button__mode" onclick="toggleMode()">Mode</button>
+        <section class="section__searchBar">
+            <input class="searchBar__box" placeholder="Buscar">
+                <a class="searchBar__link" href="#"><img class="searchBar__image" src="assets/images/lupa.png"></a>          
+        </section>
+
+        <section class="section__list">
+
+            <a href="product.html"><div class="list__author">
+                <div class="author__backgroundImage" id="colorLaoTzu">
+                    <img class="author__image" src="assets/images/photoLaoTzu.png">
+                </div>
+                <span class="author__name">Lao Tzu</span>
+            </div></a>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorHooper">
+                    <img class="author__image" src="assets/images/photoHooper.png">
+                </div>
+                <span class="author__name">Grace Hooper</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorConfucio">
+                    <img class="author__image" src="assets/images/confucio.png">
+                </div>
+                <span class="author__name">Confucio</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorEpicuro">
+                    <img class="author__image" src="assets/images/photoEpicuro.png">
+                </div>
+                <span class="author__name">Epicuro</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorBuda">
+                    <img class="author__image" src="assets/images/buda.png">
+                </div>
+                <span class="author__name">Buda</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorArendt">
+                    <img class="author__image" src="assets/images/arendt.png">
+                </div>
+                <span class="author__name">H.Arendt</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorSafo">
+                    <img class="author__image" src="assets/images/safo.png">
+                </div>
+                <span class="author__name">Safo</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorHipatia">
+                    <img class="author__image" src="assets/images/Hipatia.png">
+                </div>
+                <span class="author__name">Hipatia</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorMead">
+                    <img class="author__image" src="assets/images/Margaret-Mead.png">
+                </div>
+                <span class="author__name">M.Mead</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorUeshiba">
+                    <img class="author__image" src="assets/images/ueshiba.png">
+                </div>
+                <span class="author__name">Ueshiba</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorDavis">
+                    <img class="author__image" src="assets/images/davis.png">
+                </div>
+                <span class="author__name">A.Davis</span>
+            </div>
+
+            <div class="list__author">
+                <div class="author__backgroundImage" id="colorChuangTse">
+                    <img class="author__image" src="assets/images/chuang-tse.png">
+                </div>
+                <span class="author__name">Chuang Tse</span>
+            </div>
+            
+        </section>
+
+        <section class="before-after">
+            <span class="before-after__button"><img class="button__before" src="assets/images/button-before.png"></span>
+            <span class="before-after__button"><img class="button__after" src="assets/images/button-after.png"></span>
+        </section>
+    </main>
+    <footer class="footer">
+        <a href="#" class="footer__icon">
+            <img src="assets/images/telegram.png" alt="telegram" class="icon__image">
+        </a>
+        <a href="#" class="footer__icon">
+            <img src="assets/images/facebook.png" alt="fb" class="icon__image">
+        </a>
+        <a href="#" class="footer__icon">
+            <img src="assets/images/instagram.png" alt="instagram" class="icon__image">
+        </a>
+        <a href="#" class="footer__icon">
+            <img src="assets/images/youtube.png" alt="youtube" class="icon__image">
+        </a>
+    </footer>
+    <script src="assets/js/darkMode.js"></script>
+</body>
+</html>
